@@ -1,15 +1,15 @@
 import ProfileCard from '@/components/profile-card';
 
 export default function About() {
-    const image = '/image/prof.jpg'
+    const image = '/image/avatar.png';
   return (<>
-    <div className='m-3 flex flex-wrap justify-evenly gap-x-24 gap-y-10'>
-      <ProfileCard imgsrc={image} description='A web developer' name='Khushal' designation='Dev' about=''/>
-      <ProfileCard imgsrc={image} description='A web developer' name='Khushal' designation='Dev' about='' />
-      <ProfileCard imgsrc={image} description='A web developer' name='Khushal' designation='Dev' about='' />
-      <ProfileCard imgsrc={image} description='A web developer' name='Khushal' designation='Dev' about='' />
-      <ProfileCard imgsrc={image} description='A web developer' name='Khushal' designation='Dev' about='' />
-      <ProfileCard imgsrc={image} description='A web developer' name='Khushal' designation='Dev' about='' />
+    <div className='m-0 flex flex-wrap justify-center gap-x-24 gap-y-5 bg-gray-200 dark:bg-neutral-900'>
+      <ProfileCard imgsrc={image} description='Student in GLA University' name='Khushal' designation='Full Stack Developer' about='ReactJS | Nextjs | Tailwind css' />
+      <ProfileCard imgsrc={image} description='Student in GLA University' name='Hemant' designation='Full Stack Developer' about='ReactJS | Nextjs | Tailwind css' />
+      <ProfileCard imgsrc={image} description='Student in GLA University' name='Ritik' designation='Front-End Developer' about='ReactJS | Nextjs | Tailwind css' />
+      <ProfileCard imgsrc={image} description='Student in GLA University' name='Kashish' designation='Front-end Developer' about='ReactJS | Figma' />
+      <ProfileCard imgsrc={image} description='Student in GLA University' name='Shyama' designation='Designer' about='Figma | Tailwaind css ' />
+      <ProfileCard imgsrc={image} description='Student in GLA University' name='Kalyani' designation='Designer' about='Canva | Figma ' />
     </div>
   </>
   )
